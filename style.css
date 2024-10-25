@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
-
 body {
     height: 100vh;
     display: flex;
@@ -12,8 +11,7 @@ body {
     align-items: center;
     background-color: #e0ecff;
 }
-
-.container {
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,8 +19,7 @@ body {
     height: 100%;
     background-image: url(./images/pattern-background-desktop.svg);
 }
-
-.card {
+section {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
@@ -30,32 +27,26 @@ body {
     width: 350px;
     text-align: center;
 }
-
-.card-header {
+.cabecera {
     background-color: #3533D2;
 }
-
-.header-image {
+.cabecera img {
     width: 350px;
     border-radius: 20px 20px 0 0;
 }
-
-.card-body {
+.cuerpo {
     padding: 30px;
 }
-
 h2 {
     color: #333;
     margin-bottom: 10px;
 }
-
 p {
     color: #777;
     font-size: 14px;
     margin-bottom: 20px;
 }
-
-.plan {
+.fila3 {
     background-color: #f0f6ff;
     padding: 15px;
     border-radius: 10px;
@@ -64,25 +55,21 @@ p {
     align-items: center;
     margin-bottom: 20px;
 }
-
-.plan-details {
+.fila3int {
     display: flex;
     align-items: center;
 }
-
-.plan-icon {
+.icono {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
-
-.change-plan {
+.fila3 a {
     color: #4b3aff;
     font-size: 12px;
     cursor: pointer;
 }
-
-.btn-primary {
+.comprar {
     background-color: #5a52f2;
     color: white;
     padding: 10px 20px;
@@ -93,12 +80,10 @@ p {
     margin-bottom: 10px;
     width: 100%;
 }
-
-.btn-primary:hover {
+.comprar:hover {
     background-color: #6b63ff;
 }
-
-.btn-secondary {
+.cancelar {
     background-color: transparent;
     border: none;
     color: #666;
@@ -106,7 +91,6 @@ p {
     cursor: pointer;
     width: 100%;
 }
-
-.btn-secondary:hover {
+.cancelar:hover {
     color: #333;
 }
